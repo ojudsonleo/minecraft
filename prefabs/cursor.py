@@ -7,7 +7,7 @@ class Cursor(Entity):
         self.parent = camera.ui
         self.texture = 'cursor'
         self.model = 'quad'
-        self.color = color.light_gray
+        self.color = color.lime
         # self.origin = (-.49, .49)
         self.scale *= .05
         self.render_queue = 1
